@@ -1,0 +1,13 @@
+You will need to replace all the instances of
+$mysqli = new mysqli('DATABASE SERVER','DATABASE USERNAME','DATABASE PASSWORD','DATABASE NAME');
+
+With something like or whatever your setup ends up being.
+$mysqli = new mysqli('127.0.0.1','bbstats_username','bbpassword22','bbstats_database');
+
+There is the opportunity to refactor this a bit so there is less work involved that changing over 30 lines of code. But be aware that PHP variables are tricky if you don't understand them. Also the func_update.php page is run in a background "threaded" process that will not have any SESSION variables... so don't blame me if I didn't warn you.
+
+You will also need to replace all instances of "API USERNAME" and "API KEY" with the appropriate values for whomever's team API key you choose. Unfortunately there isn't an Application API key because BuzzerBeater still hasn't made this possible.
+
+
+If you are on linux and want to find text within a directory of files use (great way to find files to then do a find/replace)
+grep -i -n 'TEXT GOES HERE' *
