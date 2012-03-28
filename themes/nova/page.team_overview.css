@@ -1,0 +1,60 @@
+/* 
+    Document   : team_overview
+    Created on : 29/04/2011, 8:17:32 PM
+    Author     : Niko
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* Tables */
+/*
+.team_stats {
+    display:inline;
+    width: 300px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 9pt;
+    background: #fff;
+    border-collapse: collapse;
+    text-align: left;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 0 0 10px 0;
+    padding: 5px 0px;
+}
+.team_stats a {
+	color:#006666;
+}
+.trhead .td {
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-top: 2px solid #6678b1;
+}
+.tr {
+    display: table-row;
+}
+.tr:hover {
+	color:#0066FF;
+}
+.td {
+	color: #669;
+	padding: 9px 8px 9px 8px;
+        display: table-cell;
+}
+.select_td {
+	border-bottom: solid 1px #bbb; 
+	color: #00FF00;
+	font-weight:bold;
+}
+.tr:hover .td
+{
+	color: #009;
+}
+*/

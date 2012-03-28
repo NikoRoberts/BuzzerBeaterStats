@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: bblogin.php
+Disallow: team.php
+Disallow: custom.php

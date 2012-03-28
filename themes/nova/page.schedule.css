@@ -1,0 +1,53 @@
+/* 
+    Document   : page.schedule.php
+    Created on : 29/04/2011, 4:55:18 PM
+    Author     : Niko
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+tbody tr:last-child td
+{
+    border-bottom: solid #6678B1 2px;
+}
+tr td:first-child
+{
+    border-left: solid #6678B1 2px;
+}
+tr td:last-child
+{
+    border-right: solid #6678B1 2px;
+    padding-bottom: 5px;
+}
+.schedule_friendly td { 
+    background-color:#E0E0E0;
+}
+.schedule_cup td, .schedule_cup_semi_or_fin
+{
+    background-color: #D3EAF5;
+}
+.schedule_league_rs td
+{
+    background-color:white;
+}
+.schedule_league_rs_tv td
+{
+    background-color: #F6DAF0;
+}
+.schedule_league_quarterf td, .schedule_league_semifina td ,.schedule_league_final td, .schedule_league_relegati td
+{
+    background-color: #FFEAC3;
+}
+.schedule_pl_rs td
+{
+    background-color:#C0F0C0;
+}
+.schedule_bbb td
+{
+    background-color:#F0F0C0;
+}
+.bold
+{
+    font-weight: bold;
+}
+

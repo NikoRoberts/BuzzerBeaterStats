@@ -1,0 +1,592 @@
+/* Nova Styles */
+
+img {
+ border: none;
+}
+h1,h2,h3,h4,p {
+	padding: 0 0 0 0;
+	margin:0 0 0 10px;
+}
+
+/* main content  */
+#main {
+	position: absolute;
+	top: 155px;
+	left: 15px;
+	width: 750px;
+	z-index: 20;
+}
+
+#googleside {
+	position: absolute;
+	top: 155px;
+	left: 785px;
+	z-index: 200;
+}
+
+#force_update {
+	position: absolute;
+	right: 10px;
+	top: 10px; /* firefox and others */
+	#left: 216px; /*IE < 6 */
+	#top: 130px;
+	_left: 580px; /*IE > 6 */
+	_top: 30px;
+}
+#leagueShowHide {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#leagueShowHide>div {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #B4BAC0;
+    margin: 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+    font-size: 10px;
+}
+/* header content */
+
+#topleft {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 49;
+}
+#top {
+	position: absolute;
+	left: 77px;
+	top: 0px;
+	z-index: 49;
+}
+#topright {
+	position: absolute;
+	left: 703px;
+	top: 0px;
+	z-index:49;
+}
+
+/* Top left menu */
+#m_admin {
+	position: absolute;
+	top:0px;
+	left: 77px;
+	z-index: 49;
+}
+#m_feedback {
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	z-index: 49;
+}
+
+/* Top right menu */
+#m_bbforums {
+	position: absolute;
+	left: 330px;
+	top: 0px;
+	z-index: 49;
+}
+#m_bbwiki {
+	position: absolute;
+	left: 438px;
+	top: 0px;
+	z-index: 49;
+}
+#m_bbnews {
+	position: absolute;
+	left: 527px;
+	top:0px;
+	z-index: 49;
+}
+
+/* Main Bar Menu */
+#bar_menu {
+	background-image:url('images/bar.jpg');
+	background-repeat:repeat-x;
+	height:22px;
+	width:780px;
+	position:absolute;
+	top:115px;
+	left:0px;
+}
+#m_main {
+	position: absolute;
+	left: 0px;
+	top: 115px;
+	z-index: 49;
+}
+#m_custom {
+	position: absolute;
+	left: 77px;
+	top: 115px;
+	z-index: 49;
+}
+
+#m_team {
+	position: absolute;
+	left: 248px;
+	top: 115px;
+	z-index: 49;
+}
+#m_league {
+	position: absolute;
+	left: 303px;
+	top: 115px;
+	z-index: 49;
+}
+#m_country {
+	position: absolute;
+	left: 382px;
+	top: 115px;
+	z-index: 49;
+}
+#m_world {
+	position: absolute;
+	left: 474px;
+	top: 115px;
+	z-index: 49;
+}
+
+#m_settings {
+	position: absolute;
+	left: 600px;
+	top: 115px;
+	z-index: 49;
+}
+#loginout {
+	position: absolute;
+	left: 703px;
+	top: 115px;
+	z-index: 49;
+}
+
+
+/* drop-down menus */
+#drop_team {
+	position:absolute;
+	left:159px;
+	display:block;
+	z-index:30;
+}
+#drop_league {
+	position:absolute;
+	left:258px;
+	display:block;
+	z-index:30;
+}
+#drop_country {
+	position:absolute;
+	left:356px;
+	display:block;
+	z-index:30;
+}
+#drop_world {
+	position:absolute;
+	left:454px;
+	display:block;
+	z-index:30;
+}
+#drop_custom {
+	position:absolute;
+	left:552px;
+	display:block;
+	z-index:30;
+}
+
+/* Face left +82 and top +53*/
+#topFace {
+	position: absolute;
+	left: 697px;
+	top: -5px;
+	z-index: 54;
+}
+#supportFace {
+    position: relative;
+}
+.eyes {
+	position:absolute;
+	left:21px;
+	top:56px;
+	z-index: 51;
+}
+
+.eyebrow {
+	position:absolute;
+	left:21px;
+	top:50px;
+	z-index: 51;
+}
+
+.mouth {
+	position:absolute;
+	left:24px;
+	top:86px;
+	z-index: 51;
+}
+.nose {
+	position:absolute;
+	left:35px;
+	top:71px;
+	z-index: 51;
+}
+
+.hair {
+	position:absolute;
+	left:7px;
+	top:7px;
+	z-index: 51;
+}
+
+.face {
+	position:absolute;
+	top:7px;
+	left:6px;
+	z-index: 50;
+}
+
+/* Jersey and Face for Team Page */
+#face_and_jersey {
+	position:relative;
+	left:0px;
+	top:10px;
+	width:50px;
+	height: 50px;
+}
+#jersey_ball {
+	position:absolute;
+	left: 0px;
+	top: 0px;
+}
+#jersey_0 {
+	position:absolute;
+	left: 10px;
+	top: 10px;
+}
+#jersey_pair {
+	position:absolute;
+	left: 5px;
+	top: 10px;
+}
+
+/* LEVEL STYLES from BB */
+.lev1{
+	font-weight:bold;
+	color:#000000 !important;
+}
+.lev2{
+	font-weight:bold;
+	color:#121263 !important;
+}
+.lev3{
+	font-weight:bold;
+	color:#221385 !important;
+}
+.lev4{
+	font-weight:bold;
+	color:#30139F !important;
+}
+.lev5{
+	font-weight:bold;
+	color:#700BA2 !important;
+}
+.lev6{
+	font-weight:bold;
+	color:#910B9D !important;
+}
+.lev7{
+	font-weight:bold;
+	color:#AD0B88 !important;
+}
+.lev8{
+	font-weight:bold;
+	color:#B70B5A !important;
+}
+.lev9{
+	font-weight:bold;
+	color:#9C0B32 !important;
+}
+.lev10{
+	font-weight:bold;
+	color:#A70B00!important;
+}
+.lev11{
+	font-weight:bold;
+	color:#BD2600 !important;
+}
+.lev12{
+	font-weight:bold;
+	color:#CB3100 !important;
+}
+.lev13{
+	font-weight:bold;
+	color:#D93C00 !important;
+}
+.lev14{
+	font-weight:bold;
+	color:#DB6E04 !important;
+}
+.lev15{
+	font-weight:bold;
+	color:#E5A64B !important;
+}
+.lev16{
+	font-weight:bold;
+	color:#AC860A !important;
+}
+.lev17{
+	font-weight:bold;
+	color:#8E9800 !important;
+}
+.lev18{
+	font-weight:bold;
+	color:#498E00 !important;
+}
+.lev19{
+	font-weight:bold;
+	color:#0EAE28 !important;
+}
+.lev20{
+	font-weight:bold;
+	color:#0EB366 !important;
+}
+
+
+/* Similar to BB format */
+
+td {
+	font-size:10pt;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	color: #2e5f83;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+#rostable {
+	color:#000000;
+}
+h4 {
+	font-size: 14px;
+}
+a {
+	color:#069;
+}
+a.selected {
+	color:#004477;
+}
+.black {
+	color:#000;
+}
+
+#xsnazzy, .xsnazzy, #news1, #news2 {
+	background-color:#CCCCCC;
+	border: solid #666 1px;
+}
+.playerbox {
+	background-color:#CCCCCC;
+	border: solid #666 1px;
+	margin: 10px 0 0 0;
+	color: #000;
+}
+#news_section {
+	position:relative;
+}
+#news1 {
+	position:absolute;
+	top: 10px;
+	left: 0px;
+	width: 365px;
+}
+
+#news2 {
+	position: absolute;
+	top: 10px;
+	left: 380px;
+	width: 365px;
+}
+#myTable th a {
+	font-size: 9pt;
+}
+#myTable td {
+	font-size: 8pt;
+}
+#myTable td a {
+	text-align: left;
+}
+/* Tables */
+.sortable {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 9pt;
+	background: #fff;
+	border-collapse: collapse;
+	text-align: left;
+        border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 0 0 10px 0;
+	padding: 5px 0px;
+}
+.sortable a {
+	color:#006666;
+}
+.sortable th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+.sortable thead tr {
+	border-bottom:solid #036 2px;
+}
+.sortable tbody tr:hover {
+	color:#0066FF;
+}
+.sortable td {
+	color: #669;
+	padding: 9px 8px 0px 8px;
+}
+.select_td {
+	border-bottom: solid 1px #bbb; 
+	color: #00FF00;
+	font-weight:bold;
+}
+.sortable tbody tr:hover td
+{
+	color: #009;
+}
+
+/* Language Menu in Settings Page */
+#languages {
+	position:relative;
+	height:50px;
+	width:100%;
+}
+#languages a {
+	text-decoration: none;
+}
+
+.dropdown {
+	"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size:9pt;
+	color:#000;
+	position: absolute;
+	top:0px;
+	left:300px;
+}
+.desc { color:#000;}
+.desc a {color:#000;}
+
+.dropdown dd, .dropdown dt, .dropdown ul {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	display:inline;
+}
+.dropdown dd {
+	position:relative;
+}
+.dropdown a, .dropdown a:visited {
+	color:#309;
+	text-decoration:none;
+	outline:none;
+}
+.dropdown a:hover { color:#000;}
+
+.dropdown dt a:hover {
+	color:#000;
+	border: 1px solid #000;
+}
+.dropdown dt a {
+	background:#999 url(images/arrow_lang.png) no-repeat scroll right center;
+	display:block;
+	padding-right:20px;
+	border:1px solid #999;
+	width:200px;
+	position:relative;
+
+}
+.dropdown dt a span {
+	cursor:pointer;
+	display:block;
+	padding:5px;
+}
+
+.dropdown dd ul {
+	background:#999 none repeat scroll 0 0;
+	border:1px solid #000;
+	color:#039;
+	display:none;
+	left:0px;
+	padding:0px 0px;
+	position:absolute;
+	top:2px;
+	width:auto;
+	min-width:170px;
+	list-style:none;
+	z-index:99;
+}
+.dropdown span.value { display:none;}
+.dropdown dd ul li a { padding:5px; display:block;}
+.dropdown dd ul li a:hover { background-color:#555;}
+
+.dropdown img.flag { border:none; vertical-align:middle; margin-left:10px; }
+
+.flagvisibility { display:inline;}
+
+.centered {text-align:center;}
+.centered table {margin: 10px auto;padding:5px;}
+
+
+
+
+#supportdialog a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+
+#supportDonate {
+    position: absolute;
+    top: 140px;
+    left: 120px;
+}
+#supportdialog {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  margin-top: -65px;
+  margin-left: -140px;
+  position:absolute;
+  text-align:center;
+  z-index:50;
+  padding: 50px 5px 0 0;
+  left: 50%;
+  top: 50%;
+  height: 130px;
+  width:280px;
+}
+
+#supportClose {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#supportdialog .sb {
+    position: absolute;
+    top: -60px;
+    left: 50px;
+    z-index:80;
+}
+
+#supportdialog p, #supportdialog div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+}

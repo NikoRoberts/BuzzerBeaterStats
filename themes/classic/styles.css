@@ -1,0 +1,525 @@
+/* Classic Styles */
+
+/* main content */
+img {
+ border:none;
+}
+#main {
+	position: absolute;
+	top: 162px;
+	left: 5px;
+	width: 775px;
+	z-index: 20;
+}
+#googcontent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color:#003300;
+	overflow:hidden;
+	width:1px;
+	height: 1px;
+}
+#googleside {
+	position: absolute;
+	top: 174px;
+	left: 735px;
+	z-index: 200;
+}
+#m_settings {
+	position: absolute;
+	left: 700px;
+	top: 115px;
+	z-index: 49;
+}
+#message {
+	width: 700px;
+}
+#update_bar {
+	position: absolute;
+	left: 179px;
+	top: 65px; /* firefox and others */
+	#left: 216px; /*IE < 6 */
+	#top: 130px;
+	_left: 216px; /*IE > 6 */
+	_top: 130px;
+}
+
+#force_update {
+	position: absolute;
+	right: 70px;
+	top: 20px; /* firefox and others */
+	#left: 216px; /*IE < 6 */
+	#top: 130px;
+	_left: 580px; /*IE > 6 */
+	_top: 30px;
+}
+
+/* header content */
+#topleft {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 49;
+}
+#top {
+	position: absolute;
+	left: 159px;
+	top: 0px;
+	z-index: 49;
+}
+#feedback {
+	position: absolute;
+	left: 710px;
+	top: 0px;
+	z-index: 49;
+}
+#ntforums {
+	position: absolute;
+	left: 710px; /* 678 */
+	top: 43px;
+	z-index: 49;
+}
+#bbwiki {
+	position: absolute;
+	left: 710px;
+	top: 72px;
+	z-index: 49;
+}
+
+#team {
+	position: absolute;
+	left: 159px;
+	top: 115px;
+	z-index: 49;
+}
+#league {
+	position: absolute;
+	left: 258px;
+	top: 115px;
+	z-index: 49;
+}
+#country {
+	position: absolute;
+	left: 356px;
+	top: 115px;
+	z-index: 49;
+}
+#world {
+	position: absolute;
+	left: 454px;
+	top: 115px;
+	z-index: 49;
+}
+#custom {
+	position: absolute;
+	left: 552px;
+	top: 115px;
+	z-index: 49;
+}
+#space {
+	position: absolute;
+	left: 651px;
+	top: 115px;
+	z-index: 49;
+}
+
+#loginout {
+	position: absolute;
+	left: 738px;
+	top: 115px;
+	z-index: 49;
+}
+/* drop-down menus */
+#drop_team {
+	position:absolute;
+	left:159px;
+	display:block;
+	z-index:30;
+}
+#drop_league {
+	position:absolute;
+	left:258px;
+	display:block;
+	z-index:30;
+}
+#drop_country {
+	position:absolute;
+	left:356px;
+	display:block;
+	z-index:30;
+}
+#drop_world {
+	position:absolute;
+	left:454px;
+	display:block;
+	z-index:30;
+}
+#drop_custom {
+	position:absolute;
+	left:552px;
+	display:block;
+	z-index:30;
+}
+
+/* Face left +82 and top +53*/
+.faceCont {
+	position: absolute;
+	left: 76px;
+	top: 50px;
+	z-index: 54;
+}
+.eyes {
+	position:absolute;
+	left:21px;
+	top:56px;
+	z-index: 51;
+}
+
+.eyebrow {
+	position:absolute;
+	left:21px;
+	top:50px;
+	z-index: 51;
+}
+
+.mouth {
+	position:absolute;
+	left:24px;
+	top:86px;
+	z-index: 51;
+}
+.nose {
+	position:absolute;
+	left:35px;
+	top:71px;
+	z-index: 51;
+}
+
+.hair {
+	position:absolute;
+	left:7px;
+	top:7px;
+	z-index: 51;
+}
+
+.face {
+	position:absolute;
+	top:7px;
+	left:6px;
+	z-index: 50;
+}
+
+/* Jersey and Face for Team Page */
+#face_and_jersey {
+	position:relative;
+	left:10px;
+	top:10px;
+	width:120px;
+	height: 140px;
+}
+#jersey_ball {
+position:absolute;
+left: -20px;
+top: 100px;
+}
+#jersey_0 {
+position:absolute;
+left: -5px;
+top: 110px;
+}
+#jersey_pair {
+position:absolute;
+left: -15px;
+top: 110px;
+}
+
+/* LEVEL STYLES from BB */
+.lev1{
+	font-weight:bold;
+	color:#000000 !important;
+}
+.lev2{
+	font-weight:bold;
+	color:#121263 !important;
+}
+.lev3{
+	font-weight:bold;
+	color:#221385 !important;
+}
+.lev4{
+	font-weight:bold;
+	color:#30139F !important;
+}
+.lev5{
+	font-weight:bold;
+	color:#700BA2 !important;
+}
+.lev6{
+	font-weight:bold;
+	color:#910B9D !important;
+}
+.lev7{
+	font-weight:bold;
+	color:#AD0B88 !important;
+}
+.lev8{
+	font-weight:bold;
+	color:#B70B5A !important;
+}
+.lev9{
+	font-weight:bold;
+	color:#9C0B32 !important;
+}
+.lev10{
+	font-weight:bold;
+	color:#A70B00!important;
+}
+.lev11{
+	font-weight:bold;
+	color:#BD2600 !important;
+}
+.lev12{
+	font-weight:bold;
+	color:#CB3100 !important;
+}
+.lev13{
+	font-weight:bold;
+	color:#D93C00 !important;
+}
+.lev14{
+	font-weight:bold;
+	color:#DB6E04 !important;
+}
+.lev15{
+	font-weight:bold;
+	color:#E5A64B !important;
+}
+.lev16{
+	font-weight:bold;
+	color:#AC860A !important;
+}
+.lev17{
+	font-weight:bold;
+	color:#8E9800 !important;
+}
+.lev18{
+	font-weight:bold;
+	color:#498E00 !important;
+}
+.lev19{
+	font-weight:bold;
+	color:#0EAE28 !important;
+}
+.lev20{
+	font-weight:bold;
+	color:#0EB366 !important;
+}
+
+
+/* Site content style UPDATE LATER TO THEMES */
+/* Similar to BB format */
+
+.textbox {
+	background-color: #003366;
+	color: #FFFFFF;
+	border-style: solid;
+	border-width: thin;
+	border-color: #1B703A;
+}
+td {
+	font-size:11px;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	color: #78B749;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#rostable {
+	color:#000000;
+}
+h4 {
+	font-size: 14px;
+}
+a {
+	color: #80FF00;
+}
+a.selected {
+	color: #006633;
+}
+.black {
+	color:#000000;
+}
+
+
+/* testing rounded corners */
+
+#xsnazzy h1, #xsnazzy h2, #xsnazzy p {margin:0 10px; letter-spacing:1px;}
+#xsnazzy h1 {font-size:2.5em; color:#fff;}
+#xsnazzy h2 {font-size:2em;color:#06a; border:0;}
+#xsnazzy p {padding-bottom:0.5em;}
+#xsnazzy h2 {padding-top:0.5em;}
+#xsnazzy ul {padding-bottom:0.5em;}
+#xsnazzy {
+	background: transparent;
+	width: 700px;
+	margin:1em;
+}
+
+.xtop, .xbottom {
+	display:block;
+	background:transparent;
+	font-size:1px;
+}
+.xb1, .xb2, .xb3, .xb4 {
+	display:block;
+	overflow:hidden;
+}
+.xb1, .xb2, .xb3 {
+	height:1px; /* width of border top and bottom */
+}
+.xb2, .xb3, .xb4 {
+	background:#003366; /* color of top and bottom rounding bars */
+	border-left:1px solid #1B703A; /* border style left corners */
+	border-right:1px solid #1B703A; /* border style right corners */
+}
+.xb1 {
+	margin:0 5px;
+	background:#1B703A; /* border color top and bottom */
+}
+.xb2 {
+	margin:0 3px;
+	border-width:0 2px;
+}
+.xb3 {
+	margin:0 2px;
+}
+.xb4 {
+	height:2px;
+	margin:0 1px;
+}
+
+.xboxcontent {
+	display:block;
+	background:#003366; /* main background color */
+	border:0 solid #1B703A; /* border color sides */
+	border-width:0 1px; /* width of side borders */
+}
+
+/* half boxes */
+
+#news1 h1, #news1 h2, #news1 p {margin:0 1px; letter-spacing:1px;}
+#news1 h1 {font-size:2.5em; color:#fff;}
+#news1 h2 {font-size:2em;color:#06a; border:0;}
+#news1 p {padding-bottom:0.5em;}
+#news1 h2 {padding-top:0.5em;}
+#news1 {
+	position: absolute;
+	left: 0px;
+	background: transparent;
+	width: 345px;
+	margin:1em;
+}
+
+#news2 h1, #news2 h2, #news2 p {margin:0 1px; letter-spacing:1px;}
+#news2 h1 {font-size:2.5em; color:#fff;}
+#news2 h2 {font-size:2em;color:#06a; border:0;}
+#news2 p {padding-bottom:0.5em;}
+#news2 h2 {padding-top:0.5em;}
+#news2 {
+	position: absolute;
+	left: 355px;
+	background: transparent;
+	width: 345px;
+	margin:1em;
+}
+
+
+ /* Tables */
+#myTable th a {
+	font-size: 9pt;
+}
+#myTable td a {
+	text-align: left;
+}
+.sortable th {
+	color:#FFFFFF;
+	font-weight:bold;
+	vertical-align:top;
+	text-align:center;
+}
+
+.sortable td {
+	font-weight:bold;
+	text-align:center;
+	color: #FFFFCC;
+}
+.select_td {
+	color: #00FF00;
+}
+
+.playerDiv {
+	color:#FFFFFF;
+}
+.playerBG {
+	background-color:#CCC;
+}
+
+
+#languages {
+	position:relative;
+	height:50px;
+	width:100%;
+	z-index:100;
+}
+#languages a {
+	text-decoration: none;
+}
+#powered {
+	position:relative;
+	height:30px;
+	width:100%;
+	z-index:20;
+	text-align:center;
+}
+#poweredby {
+	position:absolute;
+	left:300px;
+	top:5px;
+	height:20px;
+	width:140px;
+	padding: 0px 5px 0px 5px;
+	text-align:center;
+	
+	z-index:20;
+	background-color:#FFF;
+}
+
+.dropdown { "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size:9pt; color:#000;position: absolute;
+	top:0px;
+	left:300px;}
+.desc { color:#6b6b6b;}
+.desc a {color:#0092dd;}
+
+.dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px; }
+.dropdown dd { position:relative; }
+.dropdown a, .dropdown > a:visited { color:#78B749; text-decoration:none; outline:none;}
+.dropdown a:hover { color:#78B749;}
+.dropdown dt a:hover { color:#78B749; border: 1px solid #d0c9af;}
+.dropdown dt a {background:#003366 url(images/arrow_lang.png) no-repeat scroll right center; display:block; padding-right:20px;
+				border:1px solid #d4ca9a; width:130px;}
+.dropdown dt a span {cursor:pointer; display:block; padding:5px;}
+.dropdown dd ul { background:#003366 none repeat scroll 0 0; border:1px solid #d4ca9a; color:#78B749; display:none;
+				  left:0px; padding:5px 0px; position:absolute; top:2px; width:auto; min-width:170px; list-style:none;}
+.dropdown span.value { display:none;}
+.dropdown dd ul li a { padding:5px; display:block;}
+.dropdown dd ul li a:hover { background-color:#004676;}
+
+.dropdown img.flag { border:none; vertical-align:middle; margin-left:10px; }
+.flagvisibility { display:inline;}
+
+.centered {text-align: center;
+          margin:0 auto;}

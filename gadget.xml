@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module> 
+  <ModulePrefs title="Travellr" scrolling="false"
+    title_url="http://travellr.com/?cid=widget_www.bb-stats.org-igoogle-gadget" 
+	height="350"
+    author="Niko Roberts" 
+    author_email="niko@travellr.com"
+	author_affiliation="Travellr.com"
+	description="Travellr Gadget with geolocation and country swapper"
+	thumbnail="http://www.bb-stats.org/gadget/thumb.jpg"
+	screenshot="http://www.bb-stats.org/gadget/screenshot.jpg"/> 
+ <Content type="html"> 
+  <![CDATA[
+  <!-- ALm6fM3x4vlmK7Eq28GnjRrHRR5dxn+gDXUnr+QGpmu2DnrJo0rolzvED2n8JqAM7NuAwJryLGmhHVLoCNujiK+dakibD1yack1iHYIPDOa7M+pZMPiSoHIJxELq0QHQrl2OpKZtX5CS -->
+]]> 
+ </Content> 
+</Module> 
