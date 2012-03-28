@@ -11,3 +11,8 @@ You will also need to replace all instances of "API USERNAME" and "API KEY" with
 
 If you are on linux and want to find text within a directory of files use (great way to find files to then do a find/replace)
 grep -i -n 'TEXT GOES HERE' *
+
+Or if you are looking for names of files in a directory use
+find . | grep 'thing you are looking for'
+
+If you want to make changes to the code, please fork and then make a pull request.
